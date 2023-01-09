@@ -23,7 +23,7 @@ const Header = () => {
         <HeaderWrapper>
           <CustomImage effect="blur" src={photoLink} />
           <UserNameText props={a.darkMode ? themeData.light : themeData.dark}>
-            @{userName}
+            {userName}
           </UserNameText>
           <UserNameText props={a.darkMode ? themeData.light : themeData.dark}>
             {desc}

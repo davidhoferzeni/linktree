@@ -1,14 +1,11 @@
 const socialLinks = [
-  "https://github.com/vigneshshettyin",
-  "https://linkedin.com/in/vigneshshettyin",
-  "https://twitter.com/vigneshshettyin",
-  "https://instagram.com/vigneshshettyin",
-  "https://facebook.com/vigneshshettyin",
+  "https://github.com/davidhoferzeni",
+  "https://www.linkedin.com/in/david-hofer-zeni-02456915a/",
 ];
 const profileData = {
-  userName: "vigneshshettyin",
-  photoLink: "https://github.com/vigneshshettyin.png",
-  desc: "Tech Geek | Mentor @ DeltaSJEC",
+  userName: "David Hofer-Zeni",
+  photoLink: "profilePic.png",
+  desc: "DevOps Engineer | Software Engineer | Create Writer",
 };
 
 const themeData = {
@@ -36,94 +33,21 @@ const themeData = {
 const linkData = [
   {
     id: 1,
-    link: "https://go.vigneshcodes.in/meetly",
-    name: "Meetly - Conferencing App",
-    image:
-      "https://github.com/vigneshshettyin.png",
+    link: "https://ovid-draw.azurewebsites.net/",
+    name: "Online Drawing App",
+    image: "drawapp.png",
   },
   {
     id: 2,
-    link: "https://go.vigneshcodes.in/certify",
-    name: "Certify - Certification App",
-    image:
-      "https://play-lh.googleusercontent.com/QYc9QNf0_c-M7rhF4eo8daWbIRg_ukwzabR3Xj9TX_6zxG-AbzhKF5NS3CAd2X79fm0=s360-rw",
+    link: "https://sandbox.luvdav.com/Core_ts_sb/",
+    name: "Typescript Core Library Storybook",
+    image: "storybook.png",
   },
   {
     id: 3,
-    link: "https://eurl.tech",
-    name: "EatMyUrl - Free URL Shortener",
-    image:
-      "https://play-lh.googleusercontent.com/QYc9QNf0_c-M7rhF4eo8daWbIRg_ukwzabR3Xj9TX_6zxG-AbzhKF5NS3CAd2X79fm0=s360-rw",
-  },
-  {
-    id: 4,
-    link: "https://go.vigneshcodes.in/bulkmailer",
-    name: "BulkMailer - Free Bulk Mailer App",
-    image:
-      "https://play-lh.googleusercontent.com/QYc9QNf0_c-M7rhF4eo8daWbIRg_ukwzabR3Xj9TX_6zxG-AbzhKF5NS3CAd2X79fm0=s360-rw",
-  },
-  {
-    id: 5,
-    link: "https://tesla-clone-6820b.web.app",
-    name: "Tesla UI Clone Using ReactJS",
-    image:
-      "https://play-lh.googleusercontent.com/QYc9QNf0_c-M7rhF4eo8daWbIRg_ukwzabR3Xj9TX_6zxG-AbzhKF5NS3CAd2X79fm0=s360-rw",
-  },
-  {
-    id: 6,
-    link: "https://web-scrapper-v2.herokuapp.com",
-    name: "Free S.E.O Scrapper / API",
-    image:
-      "https://play-lh.googleusercontent.com/QYc9QNf0_c-M7rhF4eo8daWbIRg_ukwzabR3Xj9TX_6zxG-AbzhKF5NS3CAd2X79fm0=s360-rw",
-  },
-  {
-    id: 7,
-    link: "https://fervent-cray-ead198.netlify.app",
-    name: "Free Blogging Application",
-    image:
-      "https://play-lh.googleusercontent.com/QYc9QNf0_c-M7rhF4eo8daWbIRg_ukwzabR3Xj9TX_6zxG-AbzhKF5NS3CAd2X79fm0=s360-rw",
-  },
-  {
-    id: 8,
-    link: "https://vignesh-blog.herokuapp.com",
-    name: "Free Blogging Application",
-    image:
-      "https://play-lh.googleusercontent.com/QYc9QNf0_c-M7rhF4eo8daWbIRg_ukwzabR3Xj9TX_6zxG-AbzhKF5NS3CAd2X79fm0=s360-rw",
-  },
-  {
-    id: 9,
-    link: "https://quizzical-pike-e7098a.netlify.app",
-    name: "Open-Source React",
-    image:
-      "https://play-lh.googleusercontent.com/QYc9QNf0_c-M7rhF4eo8daWbIRg_ukwzabR3Xj9TX_6zxG-AbzhKF5NS3CAd2X79fm0=s360-rw",
-  },
-  {
-    id: 10,
-    link: "https://linktree.vigneshcodes.in",
-    name: "Display Links Uniquely ",
-    image:
-      "https://play-lh.googleusercontent.com/QYc9QNf0_c-M7rhF4eo8daWbIRg_ukwzabR3Xj9TX_6zxG-AbzhKF5NS3CAd2X79fm0=s360-rw",
-  },
-  {
-    id: 11,
-    link: "https://blog.vigneshcodes.in/quick-guide-to-deploy-using-docker",
-    name: "Quick Guide To Deploy Using Docker",
-    image:
-      "https://play-lh.googleusercontent.com/QYc9QNf0_c-M7rhF4eo8daWbIRg_ukwzabR3Xj9TX_6zxG-AbzhKF5NS3CAd2X79fm0=s360-rw",
-  },
-    {
-    id: 12,
-    link: "https://blog.vigneshcodes.in/create-linktree-clone",
-    name: "Create Linktree Clone",
-    image:
-      "https://play-lh.googleusercontent.com/QYc9QNf0_c-M7rhF4eo8daWbIRg_ukwzabR3Xj9TX_6zxG-AbzhKF5NS3CAd2X79fm0=s360-rw",
-  },
-  {
-    id: 13,
-    link: "https://blog.vigneshcodes.in/docker-for-production-build",
-    name: "Docker For Production Build",
-    image:
-      "https://play-lh.googleusercontent.com/QYc9QNf0_c-M7rhF4eo8daWbIRg_ukwzabR3Xj9TX_6zxG-AbzhKF5NS3CAd2X79fm0=s360-rw",
+    link: "https://portfolio.luvdav.com/",
+    name: "Creative Writing Portfolio",
+    image: "ink.png",
   },
 ];
 
