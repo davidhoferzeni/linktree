@@ -1,0 +1,16 @@
+trigger:
+- main
+
+resources:
+   repositories:
+   - repository: devOps
+     type: git
+     name: DevOps/DevOps
+
+extends:
+  template: node2ftp-pipeline.yml@devOps
+  parameters:
+    # required parameters
+    sourceDirectory: $(System.DefaultWorkingDirectory)/build
+    remoteDirectory: /html/sandbox/$(Build.Repository.Name)
+    serviceConnection: Luvdav.com service connection
