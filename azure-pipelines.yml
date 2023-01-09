@@ -12,5 +12,5 @@ extends:
   parameters:
     # required parameters
     sourceDirectory: $(System.DefaultWorkingDirectory)/build
-    remoteDirectory: /html/sandbox/$(Build.Repository.Name)
+    remoteDirectory: /html/linktree
     serviceConnection: Luvdav.com service connection
