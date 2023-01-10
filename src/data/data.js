@@ -1,10 +1,8 @@
 const socialLinks = [
-  "https://github.com/davidhoferzeni",
-  "https://www.linkedin.com/in/david-hofer-zeni-02456915a/",
 ];
 const profileData = {
   userName: "David Hofer-Zeni",
-  photoLink: "profilePic.png",
+  photoLink: "img/profilePic.png",
   desc: "DevOps Engineer | Software Engineer | Create Writer",
 };
 
@@ -33,21 +31,33 @@ const themeData = {
 const linkData = [
   {
     id: 1,
-    link: "https://ovid-draw.azurewebsites.net/",
-    name: "Online Drawing App",
-    image: "drawapp.png",
+    link: "https://www.linkedin.com/in/david-hofer-zeni-02456915a/",
+    name: "LinkedIn Profile",
+    image: "img/linkedin.svg",
   },
   {
     id: 2,
-    link: "https://sandbox.luvdav.com/Core_ts_sb/",
-    name: "Typescript Core Library Storybook",
-    image: "storybook.png",
+    link: "https://github.com/davidhoferzeni",
+    name: "Github Profile",
+    image: "img/github.png",
   },
   {
     id: 3,
+    link: "https://ovid-draw.azurewebsites.net/",
+    name: "Online Collaborative Drawing App",
+    image: "img/drawapp.png",
+  },
+  {
+    id: 4,
+    link: "https://sandbox.luvdav.com/Core_ts_sb/",
+    name: "Typescript Core Library Storybook",
+    image: "img/storybook.png",
+  },
+  {
+    id: 5,
     link: "https://portfolio.luvdav.com/",
     name: "Creative Writing Portfolio",
-    image: "ink.png",
+    image: "img/ink.png",
   },
 ];
 
