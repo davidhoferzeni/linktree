@@ -55,7 +55,7 @@ const linkData = [
   },
   {
     id: 5,
-    link: "https://portfolio.luvdav.com/",
+    link: "https://creative.luvdav.com/",
     name: "Creative Writing Portfolio",
     image: "img/ink.png",
   },
