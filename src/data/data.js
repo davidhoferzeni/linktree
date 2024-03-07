@@ -59,6 +59,12 @@ const linkData = [
     name: "Creative Writing Portfolio",
     image: "img/ink.png",
   },
+  {
+    id: 6,
+    link: "https://grades.luvdav.com/",
+    name: "Grade Calculator",
+    image: "https://grades.luvdav.com/favicon.png",
+  }
 ];
 
 export { socialLinks, profileData, linkData, themeData };
