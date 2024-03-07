@@ -1,9 +1,9 @@
 const socialLinks = [
 ];
 const profileData = {
-  userName: "David Hofer-Zeni",
+  userName: "David Zeni-Su",
   photoLink: "img/profilePic.png",
-  desc: "DevOps Engineer | Software Engineer | Create Writer",
+  desc: "DevOps Engineer | Software Engineer | Creative Writer",
 };
 
 const themeData = {
