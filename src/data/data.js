@@ -37,34 +37,34 @@ const linkData = [
   },
   {
     id: 2,
-    link: "https://github.com/davidhoferzeni",
+    link: "https://github.com/davidzenisu",
     name: "Github Profile",
     image: "img/github.png",
   },
   {
     id: 3,
+    link: "https://grades.luvdav.com/",
+    name: "Grade Calculator PWA",
+    image: "https://grades.luvdav.com/favicon.png",
+  },
+  {
+    id: 4,
     link: "https://ovid-draw.azurewebsites.net/",
     name: "Online Collaborative Drawing App",
     image: "img/drawapp.png",
   },
   {
-    id: 4,
+    id: 5,
     link: "https://sandbox.luvdav.com/Core_ts_sb/",
     name: "Typescript Core Library Storybook",
     image: "img/storybook.png",
   },
   {
-    id: 5,
+    id: 6,
     link: "https://creative.luvdav.com/",
     name: "Creative Writing Portfolio",
     image: "img/ink.png",
   },
-  {
-    id: 6,
-    link: "https://grades.luvdav.com/",
-    name: "Grade Calculator",
-    image: "https://grades.luvdav.com/favicon.png",
-  }
 ];
 
 export { socialLinks, profileData, linkData, themeData };
