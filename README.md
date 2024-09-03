@@ -4,4 +4,3 @@
 **Introduction**
 
 Nowadays web applications like  [Linktree](https://linktr.ee/) are used by developers to showcase their social, project links.
-.
